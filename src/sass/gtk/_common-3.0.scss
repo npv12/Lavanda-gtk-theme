@@ -3892,14 +3892,14 @@ decoration {
 // Windows button
 
 %mac_window_button {
-  min-height: 22px;
-  min-width: 22px;
+  min-height: 18px;
+  min-width: 18px;
   padding: 0;
   margin: 0 $space-size - 2px;
 
   &.minimize, &.maximize, &.close {
     &:hover, &:active {
-      color: white;
+      color: black;
     }
 
     &:active {
@@ -3912,20 +3912,29 @@ decoration {
   }
 
   &.minimize { // Window minimize button
+    background-color: $button-min;
+    color: $button-min;
     &:hover, &:active {
-      background-color: $button-min;
+      background-color: lighten($button-min, 8%);
+      color: on($button-min)
     }
   }
 
   &.maximize { // Window maximize button
+    background-color: $button-max;
+    color: $button-max;
     &:hover, &:active {
-      background-color: $button-max;
+      background-color: lighten($button-max, 8%);
+      color: on($button-max)
     }
   }
 
   &.close { // Window close button
+    background-color: $button-close;
+    color: $button-close;
     &:hover, &:active {
-      background-color: $button-close;
+      background-color: lighten($button-close, 8%);
+      color: on($button-close)
     }
   }
 }
