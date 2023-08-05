@@ -75,9 +75,9 @@
 // Basic colors
 //
 
-$primary:                               if($variant == 'light', $default-dark, $default-light);
-$primary-left:                          #6a58f0;
-$primary-right:                         #cf54d0;
+$primary:                               #f2cdcd;
+$primary-left:                          $primary;
+$primary-right:                         #cba6f7;
 
 @if $theme == 'sea' {
   $primary:                             if($variant == 'light', $blue-dark, $blue-light);
@@ -135,9 +135,9 @@ $solid-border:                          if($variant == 'light', mix(black, $base
 $border-alt:                            rgba($black, 0.16); // darker border color for Chrome and Firefox
 
 // Window Buttons
-$button-close:                          $accent;
-$button-max:                            $primary;
-$button-min:                            $primary;
+$button-close:                          #f38ba8;
+$button-max:                            #a6e3a1;
+$button-min:                            #f9e2af;
 
 //
 // Overlay state colors

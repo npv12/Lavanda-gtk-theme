@@ -35,11 +35,9 @@
   }
 
   &:checked .overview-icon {
-    background-color: $primary-left !important;
-    background-gradient-direction: horizontal;
-    background-gradient-start: $primary-left;
-    background-gradient-end: $primary-right;
-    color: on($primary-left) !important;
+    background-color: transparent;
+    background-gradient-start: #f2cdcd;
+    background-gradient-end: #cba6f7;
   }
 }
 
