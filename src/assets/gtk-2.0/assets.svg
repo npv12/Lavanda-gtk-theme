@@ -62,11 +62,11 @@
     <linearGradient
        id="color-primary">
       <stop
-         style="stop-color:#f2cdcd;stop-opacity:1;"
+         style="stop-color:#a6e3a1;stop-opacity:1;"
          offset="0"
          id="stop912" />
       <stop
-         style="stop-color:#cba6f7;stop-opacity:1;"
+         style="stop-color:#89dceb;stop-opacity:1;"
          offset="1"
          id="stop914" />
     </linearGradient>

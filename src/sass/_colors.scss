@@ -75,9 +75,9 @@
 // Basic colors
 //
 
-$primary:                               #f2cdcd;
+$primary:                               #a6e3a1;
 $primary-left:                          $primary;
-$primary-right:                         #cba6f7;
+$primary-right:                         #89dceb;
 
 @if $theme == 'sea' {
   $primary:                             if($variant == 'light', $blue-dark, $blue-light);
